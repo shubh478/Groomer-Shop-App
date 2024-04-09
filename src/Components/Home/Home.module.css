@@ -1,0 +1,158 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.founderSectionContainerMain {
+  position: relative;
+  background-color: rgba(9, 9, 9, 1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.founderSectionContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+.founderSection {
+  display: flex;
+
+  margin-bottom: 1.5rem;
+  gap: 5rem;
+}
+
+.founder {
+  text-align: center;
+}
+
+.founderImage {
+  width: 228.41px;
+  height: 306.69px;
+
+  margin-bottom: 1rem;
+  border-radius: 70%;
+}
+
+.founderName {
+  font-family: "poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+}
+
+.founderRole {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.founderDescription {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 1);
+}
+.shape {
+  position: absolute;
+  width: 80%;
+  height: 384px;
+  border-radius: 0px 0px 208px 208px;
+  border: 0.5px solid rgba(204, 187, 142, 1);
+  bottom: 5rem;
+  opacity: 0px;
+}
+
+.testimonialSection {
+  padding: 10rem;
+
+  background: rgba(204, 187, 142, 1);
+}
+
+.sectionTitle {
+  font-family: Abhaya Libre Medium;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(9, 9, 9, 1);
+  margin-bottom: 5rem;
+}
+
+.testimonial {
+  font-family: "poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.founderNameTestimonial {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 2rem;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 0.2rem;
+}
+.dot1 {
+  width: 6px;
+  height: 6px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+.dot2 {
+  width: 6px;
+  height: 6px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .founderSection {
+    display: flex;
+
+    margin-bottom: 1.5rem;
+    gap: 5rem;
+  }
+
+  .founder {
+    text-align: center;
+  }
+
+  .founderImage {
+    width: 150.41px;
+    height: 206.69px;
+
+    margin-bottom: 1rem;
+    border-radius: 70%;
+  }
+}

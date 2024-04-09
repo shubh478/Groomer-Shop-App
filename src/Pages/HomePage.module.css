@@ -1,0 +1,48 @@
+.sectionTitle {
+  font-family: Abhaya Libre Medium;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 10rem;
+  white-space: nowrap;
+}
+
+.headerContainer {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  width: 100%;
+}
+.homepageContainer {
+  overflow: hidden;
+}
+
+@media (max-width: 968px) {
+  .sectionTitle {
+    font-family: Abhaya Libre Medium;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 5rem;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 568px) {
+  .sectionTitle {
+    font-family: Abhaya Libre Medium;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    white-space: nowrap;
+  }
+}

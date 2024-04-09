@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logoContainer {
+  flex: 1;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.navList {
+  font-family: "poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  margin-right: 3.5rem;
+}
+
+.navItem {
+  font-size: 1rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ffff;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #007bff;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.userIcon {
+  width: 45px;
+  height: 45px;
+}
+
+.dropdownIcon {
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid #ddd;
+  }
+  .navList {
+    font-family: "poppins", sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-right: 3.5rem;
+  }
+}
+@media (max-width: 568px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid #ddd;
+  }
+  .navList {
+    font-family: "poppins", sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 3.5rem;
+  }
+}
